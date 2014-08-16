@@ -58,3 +58,4 @@ config TRACEPOINTS
        default y
        help
        Enable tracepoints for lttng modules
+
