@@ -52,3 +52,8 @@ config XILINX_AXIPCIE
 endmenu
 
 endif
+config TRACEPOINTS
+	bool "Tracepoints for lttng modules"
+	default y
+	help
+	Enable tracepoints for lttng modules
